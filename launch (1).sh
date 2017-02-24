@@ -11,8 +11,8 @@ update() {
 
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
-  git clone https://github.com/memo5/MAITHAM.git
-  cd MAITHAM
+  git clone https://github.com/keplerproject/luarocks.git
+  cd luarocks
   git checkout tags/v2.3.0-rc2 # Release Candidate
 
   PREFIX="$THIS_DIR/.luarocks"
@@ -174,5 +174,5 @@ echo ""
     rm gban1
     
   fi
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./dragon/dragon.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./MAITHAM/MAITHAM.lua -l 1 -E $@
 fi
