@@ -11,12 +11,11 @@ update() {
 
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
-  git clone https://github.com/keplerproject/luarocks.git
+  git clone https:https://github.com/memo5/MAITHAM.git
   cd luarocks
   git checkout tags/v2.2.1 # Current stable
 
   PREFIX="$THIS_DIR/.luarocks"
-
   ./configure --prefix=$PREFIX --sysconfdir=$PREFIX/luarocks --force-config
 
   RET=$?; if [ $RET -ne 0 ];
@@ -126,10 +125,10 @@ else
   
   #Adding some color. By @MehdiHS
    echo -e "\033[38;5;208m"
-   echo -e "     > DEV : SAJJAD HUSSIEN                                          "
-   echo -e "     > DEV : @TH3_Evil                                           "
-   echo -e "     > Bot ID : DEV : @sajjad_aliraqi_bot                       "
-   echo -e "     > Github : https://github.com/blackops97/TH3_Evil    "
+   echo -e "     > DEV : MAITHAM                                         "
+   echo -e "     > DEV : @MAITHAMO_O                                           "
+   echo -e "     > Bot ID : DEV : @MAITHAMO_Obot                       "
+   echo -e "     > Github : https: https://github.com/memo5/MAITHAM   "
    echo -e "          BY sajjad hussien                                   \033[0;00m"
    echo -e "\e[36m"
   rm -r ../.telegram-cli/state #Prevent tg from crash
