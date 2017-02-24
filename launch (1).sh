@@ -11,8 +11,8 @@ update() {
 
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
-  git clone https://github.com/keplerproject/luarocks.git
-  cd luarocks
+  git clone https://github.com/memo5/MAITHAM.git
+  cd MAITHAM
   git checkout tags/v2.3.0-rc2 # Release Candidate
 
   PREFIX="$THIS_DIR/.luarocks"
@@ -130,20 +130,20 @@ else
  ## chmod 777 config_fix.sh
   
   echo -e "\033[38;5;208m"   
-  echo -e "       CH > @love0o_o0            "
-  echo -e "       CH > @love0o_o0           "
-  echo -e "       CH > @love0o_o0    "
-  echo -e "       CH > @love0o_o0     "
-  echo -e "       CH > @love0o_o0      "
-  echo -e "       CH > @love0o_o0     "
-  echo -e "       CH > @love0o_o0            " 
-  echo -e "       CH > @love0o_o0           "     
-  echo -e "       CH > @love0o_o0          "
-  echo -e "       CH > @love0o_o0        " 
-  echo -e "       CH > @love0o_o0          " 
-  echo -e "       CH > @love0o_o0         \033[0;00m"
+  echo -e "       CH >             "
+  echo -e "       CH >            "
+  echo -e "       CH >     "
+  echo -e "       CH >      "
+  echo -e "       CH >       "
+  echo -e "       CH >      "
+  echo -e "       CH >             " 
+  echo -e "       CH >            "     
+  echo -e "       CH >           "
+  echo -e "       CH >  @MAITHAMO_O       " 
+  echo -e "       CH >           " 
+  echo -e "       CH >          \033[0;00m"
   echo -e "\e[36m"                                      
-  echo -e "CH > @love0o_o0" 
+  echo -e "CH > @MAITHAMO_O" 
    cat << EOF
  $f1   ____  ____      _    ____  ___  _   _ 
  $f1  |  _ \|  _ \    / \  / ___|/ _ \| \ | |
@@ -151,8 +151,8 @@ else
  $f1  | |_| |  _ <  / ___ \ |_| | |_| | |\  |
  $f1  |____/|_| \_\/_/   \_\____|\___/|_| \_|
 EOF
-echo -e "\e[100m          CH > @love0o_o0        \e[00;37;40m"
-echo -e "\e[01;34m        CH > @love0o_o0         \e[00;37;40m"
+echo -e "\e[100m          CH > @MAITHAMO_O        \e[00;37;40m"
+echo -e "\e[01;34m        CH > @MAITHAMO_O        \e[00;37;40m"
 echo ""
    
   if [ -f data/config.lua ]; then
