@@ -101,7 +101,7 @@ install() {
   fi
   cd ..
   install_luarocks
-  install_rocks
+  install_ro
 }
 
 if [ "$1" = "install" ]; then
@@ -126,12 +126,13 @@ else
   
   #Adding some color. By @MehdiHS
    echo -e "\033[38;5;208m"
-   echo -e "     > DEV : SAJJAD HUSSIEN                                          "
-   echo -e "     > DEV : @TH3_Evil                                           "
-   echo -e "     > Bot ID : DEV : @sajjad_aliraqi_bot                       "
-   echo -e "     > Github : https://github.com/blackops97/TH3_Evil    "
+   echo -e "     > DEV : MAITHAM                                          "
+   echo -e "     > DEV : @MAITHAMO_O                                           "
+   echo -e "     > Bot ID : DEV :@MAITHAMO_Obot  
+   "
+   echo -e "     > Github : git clone https://github.com/memo5/MAITHAM    "
    echo -e "          BY sajjad hussien                                   \033[0;00m"
    echo -e "\e[36m"
   rm -r ../.telegram-cli/state #Prevent tg from crash
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/TH3_Evil.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/MAITHAM.lua -l 1 -E $@
 fi
