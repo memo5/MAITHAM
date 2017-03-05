@@ -1,7 +1,8 @@
 do local _ = {
  about_text = "",
     enabled_plugins = {
-   "me",
+   "b5",
+   "rebo"
     },
     help_text_realm = "",
   help_text_super = "",
